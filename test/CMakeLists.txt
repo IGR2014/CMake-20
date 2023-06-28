@@ -52,6 +52,8 @@ set(
 	"../"
 )
 
+# Enable CCache
+include(EnableCCache)
 # Sources build protection
 include(ProtectSourcesBuild)
 
